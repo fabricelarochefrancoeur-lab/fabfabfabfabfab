@@ -64,7 +64,19 @@ export default function PeoplePersonHero() {
             textAlign: 'center',
           }}
         >
-          People Person : A solo show by Fab. Work in progress nights coming soon.
+          People Person : A solo show by Fab.{' '}
+          <a
+            href="https://fabfabfabfabfab.bigcartel.com/category/shows"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{
+              color: '#aaa',
+              textDecoration: 'underline',
+              textUnderlineOffset: '3px',
+            }}
+          >
+            Get tickets for the work in progress nights
+          </a>
         </p>
       </div>
 

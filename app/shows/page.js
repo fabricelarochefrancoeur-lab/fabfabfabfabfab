@@ -13,21 +13,21 @@ const upcomingShows = [
     description: 'People Person — Work in Progress',
     venue: "Fab's Studio",
     city: 'London',
-    ticketUrl: '#',
+    ticketUrl: 'https://fabfabfabfabfab.bigcartel.com/product/peoplepersonwip1',
   },
   {
     date: 'April 8, 2026',
     description: 'People Person — Work in Progress',
     venue: "Fab's Studio",
     city: 'London',
-    ticketUrl: '#',
+    ticketUrl: 'https://fabfabfabfabfab.bigcartel.com/product/peoplepersonwip2',
   },
   {
     date: 'April 9, 2026',
     description: 'People Person — Work in Progress',
     venue: "Fab's Studio",
     city: 'London',
-    ticketUrl: '#',
+    ticketUrl: 'https://fabfabfabfabfab.bigcartel.com/product/peoplepersonwip3',
   },
 ];
 
