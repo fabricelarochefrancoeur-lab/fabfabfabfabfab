@@ -99,14 +99,14 @@ export default function AboutPage() {
           >
             For all inquiries:{' '}
             <a
-              href="mailto:email@fabfabfabfabfab.com"
+              href="mailto:inaccurateempire@gmail.com"
               style={{
                 color: '#0d0d0d',
                 textDecoration: 'underline',
                 textUnderlineOffset: '3px',
               }}
             >
-              email@fabfabfabfabfab.com
+              inaccurateempire@gmail.com
             </a>
           </p>
         </div>
