@@ -252,9 +252,22 @@ export const works = [
     year: 2013,
     title: "L'amour à l'âge atomique / Love at Atomic Age",
     category: 'FILM',
-    tags: ['Film'],
-    description: '[Placeholder — Fab will fill this in.]',
+    tags: ['Short Film'],
+    description:
+      "Two sisters have a secret admiration for each other as they learn about love.\n\nAwards, Selections and Nominations — Winner Best Student Short Film at Quebec City Film Festival. Selection Short Film Corner of Cannes Film Festival. Selection En Route Air Canada Film Festival.",
     image: "/images/L'amour a l'age atomique.gif",
-    links: [],
+    credits: [
+      { label: 'Written & directed by', value: 'Fabrice-Édouard La Roche-Francoeur' },
+      { label: 'Produced by', value: 'Achromatic Media' },
+      { label: 'DOP', value: 'Derek Branscombe' },
+      { label: 'Starring', value: 'Miranda La Roche-Francoeur, Virginie Ranger-Beauregard, Charles Sirard-Blouin, Philippe Thibeault-Denis, Laurie Gagné, Simon-Pierre Lambert & Jean-Samuel Demers' },
+    ],
+    links: [
+      {
+        label: 'Watch on YouTube',
+        href: 'https://youtu.be/Tjww1vDljN4?si=eb_F1qAYSxYSPwbQ',
+        external: true,
+      },
+    ],
   },
 ];

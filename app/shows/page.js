@@ -79,31 +79,14 @@ export default function ShowsPage() {
               }}
             />
             {upcomingShows.map((show, i) => (
-              <div
-                key={i}
-                style={{
-                  display: 'flex',
-                  alignItems: 'center',
-                  justifyContent: 'space-between',
-                  padding: '2rem 0',
-                  borderBottom: '1px solid #2a2a2a',
-                  gap: '2rem',
-                }}
-              >
-                <div
-                  style={{
-                    display: 'flex',
-                    alignItems: 'center',
-                    gap: '2rem',
-                  }}
-                >
+              <div key={i} className="show-row">
+                <div className="show-row-info">
                   <span
                     style={{
                       fontFamily: 'var(--font-body)',
                       fontSize: '0.75rem',
                       color: '#555',
                       letterSpacing: '0.06em',
-                      minWidth: '8rem',
                       flexShrink: 0,
                     }}
                   >
@@ -121,27 +104,28 @@ export default function ShowsPage() {
                       {show.description}
                     </span>
                   )}
-                  <span
-                    style={{
-                      fontFamily: 'var(--font-display)',
-                      fontSize: '1rem',
-                      color: '#555',
-                      letterSpacing: '-0.01em',
-                    }}
-                  >
-                    {show.venue}
-                  </span>
-                  <span
-                    style={{
-                      fontFamily: 'var(--font-body)',
-                      fontSize: '0.7rem',
-                      color: '#555',
-                      letterSpacing: '0.08em',
-                      alignSelf: 'center',
-                    }}
-                  >
-                    {show.city}
-                  </span>
+                  <div className="show-row-meta">
+                    <span
+                      style={{
+                        fontFamily: 'var(--font-display)',
+                        fontSize: '1rem',
+                        color: '#555',
+                        letterSpacing: '-0.01em',
+                      }}
+                    >
+                      {show.venue}
+                    </span>
+                    <span
+                      style={{
+                        fontFamily: 'var(--font-body)',
+                        fontSize: '0.7rem',
+                        color: '#555',
+                        letterSpacing: '0.08em',
+                      }}
+                    >
+                      {show.city}
+                    </span>
+                  </div>
                 </div>
 
                 <a
@@ -157,6 +141,7 @@ export default function ShowsPage() {
                     textDecoration: 'underline',
                     textUnderlineOffset: '3px',
                     whiteSpace: 'nowrap',
+                    flexShrink: 0,
                   }}
                 >
                   Tickets →
