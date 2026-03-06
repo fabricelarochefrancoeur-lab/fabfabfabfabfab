@@ -1,4 +1,5 @@
 import BilingualBio from '@/components/BilingualBio';
+import Image from 'next/image';
 
 export const metadata = {
   title: 'About — Fab',
@@ -26,25 +27,16 @@ export default function AboutPage() {
           style={{
             width: '100%',
             maxWidth: '200px',
-            aspectRatio: '3/4',
-            backgroundColor: '#e0ddd7',
-            display: 'flex',
-            alignItems: 'center',
-            justifyContent: 'center',
             marginBottom: '2.5rem',
           }}
         >
-          <span
-            style={{
-              fontFamily: 'var(--font-body)',
-              fontSize: '0.6rem',
-              letterSpacing: '0.2em',
-              color: '#b5b0a4',
-              textTransform: 'uppercase',
-            }}
-          >
-            Portrait Photo
-          </span>
+          <Image
+            src="/images/Fab 2026.jpg"
+            alt="Fab — 2026"
+            width={600}
+            height={800}
+            style={{ width: '100%', height: 'auto', display: 'block' }}
+          />
         </div>
 
         {/* ── Name ── */}
