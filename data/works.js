@@ -33,6 +33,29 @@ export const works = [
     links: [],
   },
   {
+    id: 'tout-va-bien',
+    date: '2026',
+    year: 2026,
+    title: 'Tout va bien',
+    category: 'COMEDY',
+    tags: ['Improv', 'Trio', 'French'],
+    description:
+      'A French Improv Trio.\n\nTrois grands amis. Un trio franco-québécois. Un seul objectif : vous libérer de tous vos soucis. Dans ce spectacle extravaganza au rythme effréné, les histoires s\'entremêlent, les sketchs surgissent, et l\'amitié est sans cesse mise à l\'épreuve. Avec Grégoire de Chavanes, Fab La Roche-Francoeur, Garance Bray.',
+    image: '/images/TVB Avignon 2025 Poster FINAL.JPG',
+    links: [
+      {
+        label: 'Watch Tout va bien — improv comedy special (in French)',
+        href: 'https://youtu.be/6jTJYClqO2E?si=Zkp7SoCsqnPK7CgW',
+        external: true,
+      },
+      {
+        label: 'Suivez-nous sur Instagram',
+        href: 'https://www.instagram.com/toutvabien_tv/',
+        external: true,
+      },
+    ],
+  },
+  {
     id: 'stand-up',
     date: 'Since 2019',
     year: 2019,
