@@ -239,7 +239,7 @@ export const works = [
       'On a cold winter night, a vagabond seeks shelter in the house of a contemptuous bourgeois family, interrupting the birthday party of their cruel daughter.',
     image: '/images/Vagabond GIF 2.gif',
     credits: [
-      { label: 'Directed by', value: 'Fabrice-Édouard La Roche-Francoeur' },
+      { label: 'Written & directed by', value: 'Fabrice-Édouard La Roche-Francoeur' },
       { label: 'Produced by', value: 'Achromatic Media' },
       { label: 'DOP', value: 'Derek Branscombe' },
       { label: 'Starring', value: 'Simon Boudreault, Patrick Dupuis, Miranda La Roche-Francoeur, Virginie Ranger-Beauregard, Antoine Rivard-Nolin, Cédric Egain' },
