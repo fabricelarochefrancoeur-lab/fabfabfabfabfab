@@ -34,8 +34,8 @@ export const works = [
   },
   {
     id: 'tout-va-bien',
-    date: '2026',
-    year: 2026,
+    date: '2025',
+    year: 2025,
     title: 'Tout va bien',
     category: 'COMEDY',
     tags: ['Improv', 'Trio', 'French'],
