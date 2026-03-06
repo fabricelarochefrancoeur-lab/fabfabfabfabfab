@@ -266,12 +266,7 @@ export default function WorkEntry({ entry, isExpanded, onToggle, showDate }) {
                 {credits.map(({ label, value }) => (
                   <div
                     key={label}
-                    style={{
-                      display: 'flex',
-                      gap: '1.5rem',
-                      marginBottom: '0.45rem',
-                      alignItems: 'baseline',
-                    }}
+                    className="credits-row"
                   >
                     <span
                       style={{
