@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__Claude_Preview__preview_start",
+      "Bash(pkill -f \"next dev\")",
+      "Bash(git add -A)",
+      "Bash(git commit:*)",
+      "Bash(git push)",
+      "Bash(git add app/about/page.js)",
+      "Bash(git add data/works.js)",
+      "Bash(sudo npm install @elevenlabs/client)",
+      "Bash(npm install @elevenlabs/client --cache /tmp/npm-cache)",
+      "Bash(npm install --cache /tmp/npm-cache)",
+      "Bash(curl -s http://localhost:3000/shows)"
+    ]
+  }
+}

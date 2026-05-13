@@ -21,7 +21,7 @@ export const works = [
     tags: ['Feature Film', 'In Post-Production'],
     description:
       "After a failed initiatory journey, René Loisel returns in secret in his hometown of Havre St-Laurent. Looking for meaning in his existence, he finds himself in the middle of a police investigation which forces him to confront his former classmates who all seem to be successful, his sister whom he admires more than anything, his first love, a policewoman with a big heart and a serial murderer.",
-    image: '/images/Pink Haze.jpg',
+    image: '/images/la-fumee-rose.jpg',
     credits: [
       { label: 'Written & directed by', value: 'Fabrice-Édouard La Roche-Francoeur' },
       { label: 'Produced by', value: 'Achromatic Media' },

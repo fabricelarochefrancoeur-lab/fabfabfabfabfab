@@ -9,25 +9,39 @@ export const metadata = {
 // Each show: { date, venue, city, ticketUrl }
 const upcomingShows = [
   {
+    date: 'June 3, 2026',
+    description: 'People Person — Work in Progress',
+    venue: "Fab's Studio",
+    city: 'London',
+    ticketUrl: 'https://fabfabfabfabfab.bigcartel.com/product/peoplepersonwip3',
+  },
+  {
+    date: 'June 4, 2026',
+    description: 'People Person — Work in Progress',
+    venue: "Fab's Studio",
+    city: 'London',
+    ticketUrl: 'https://fabfabfabfabfab.bigcartel.com/product/peoplepersonwip2',
+  },
+];
+
+const pastShows = [
+  {
     date: 'April 2, 2026',
     description: 'People Person — Work in Progress',
     venue: "Fab's Studio",
     city: 'London',
-    ticketUrl: 'https://fabfabfabfabfab.bigcartel.com/product/peoplepersonwip1',
   },
   {
     date: 'April 8, 2026',
     description: 'People Person — Work in Progress',
     venue: "Fab's Studio",
     city: 'London',
-    ticketUrl: 'https://fabfabfabfabfab.bigcartel.com/product/peoplepersonwip2',
   },
   {
     date: 'April 9, 2026',
     description: 'People Person — Work in Progress',
     venue: "Fab's Studio",
     city: 'London',
-    ticketUrl: 'https://fabfabfabfabfab.bigcartel.com/product/peoplepersonwip3',
   },
 ];
 
@@ -161,6 +175,82 @@ export default function ShowsPage() {
           >
             No upcoming shows. Check back soon.
           </p>
+        )}
+
+        {/* Past Shows section */}
+        {pastShows.length > 0 && (
+          <div style={{ marginTop: '6rem' }}>
+            <h2
+              style={{
+                fontFamily: 'var(--font-display)',
+                fontSize: 'clamp(1.2rem, 3vw, 1.8rem)',
+                fontWeight: 300,
+                color: '#333',
+                letterSpacing: '-0.02em',
+                lineHeight: 0.97,
+                marginBottom: '2rem',
+              }}
+            >
+              Past Shows
+            </h2>
+            <div
+              style={{
+                borderTop: '1px solid #1e1e1e',
+                marginBottom: '0',
+              }}
+            />
+            {pastShows.map((show, i) => (
+              <div key={i} className="show-row" style={{ opacity: 0.45 }}>
+                <div className="show-row-info">
+                  <span
+                    style={{
+                      fontFamily: 'var(--font-body)',
+                      fontSize: '0.75rem',
+                      color: '#555',
+                      letterSpacing: '0.06em',
+                      flexShrink: 0,
+                    }}
+                  >
+                    {show.date}
+                  </span>
+                  {show.description && (
+                    <span
+                      style={{
+                        fontFamily: 'var(--font-body)',
+                        fontSize: '0.75rem',
+                        color: '#e8e6e1',
+                        letterSpacing: '0.04em',
+                      }}
+                    >
+                      {show.description}
+                    </span>
+                  )}
+                  <div className="show-row-meta">
+                    <span
+                      style={{
+                        fontFamily: 'var(--font-display)',
+                        fontSize: '1rem',
+                        color: '#555',
+                        letterSpacing: '-0.01em',
+                      }}
+                    >
+                      {show.venue}
+                    </span>
+                    <span
+                      style={{
+                        fontFamily: 'var(--font-body)',
+                        fontSize: '0.7rem',
+                        color: '#555',
+                        letterSpacing: '0.08em',
+                      }}
+                    >
+                      {show.city}
+                    </span>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
         )}
       </div>
 
