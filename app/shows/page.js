@@ -9,18 +9,11 @@ export const metadata = {
 // Each show: { date, venue, city, ticketUrl }
 const upcomingShows = [
   {
-    date: 'June 3, 2026',
+    date: 'July 2, 2026',
     description: 'People Person — Work in Progress',
     venue: "Fab's Studio",
     city: 'London',
     ticketUrl: 'https://fabfabfabfabfab.bigcartel.com/product/peoplepersonwip3',
-  },
-  {
-    date: 'June 4, 2026',
-    description: 'People Person — Work in Progress',
-    venue: "Fab's Studio",
-    city: 'London',
-    ticketUrl: 'https://fabfabfabfabfab.bigcartel.com/product/peoplepersonwip2',
   },
 ];
 
