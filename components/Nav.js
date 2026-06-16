@@ -13,7 +13,7 @@ export default function Nav() {
         alignItems: 'center',
         justifyContent: 'space-between',
         padding: '1.6rem 2.5rem',
-        background: 'linear-gradient(to bottom, rgba(13,13,13,0.85) 0%, transparent 100%)',
+        background: 'linear-gradient(to bottom, rgba(245,243,238,0.9) 0%, transparent 100%)',
         pointerEvents: 'none',
       }}
     >
@@ -25,7 +25,7 @@ export default function Nav() {
           fontFamily: 'var(--font-display)',
           fontSize: '1.35rem',
           fontWeight: 400,
-          color: '#e8e6e1',
+          color: '#0d0d0d',
           letterSpacing: '0.02em',
           pointerEvents: 'all',
         }}
@@ -54,7 +54,7 @@ export default function Nav() {
               fontSize: '0.65rem',
               letterSpacing: '0.2em',
               textTransform: 'uppercase',
-              color: '#e8e6e1',
+              color: '#0d0d0d',
             }}
           >
             {label}

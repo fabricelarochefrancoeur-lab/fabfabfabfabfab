@@ -8,7 +8,7 @@ export default function PeoplePersonHero() {
       className="grain-bg"
       style={{
         position: 'relative',
-        backgroundColor: '#0d0d0d',
+        backgroundColor: '#f5f3ee',
         minHeight: '100svh',
         display: 'flex',
         flexDirection: 'column',
@@ -70,7 +70,7 @@ export default function PeoplePersonHero() {
             target="_blank"
             rel="noopener noreferrer"
             style={{
-              color: '#aaa',
+              color: '#0d0d0d',
               textDecoration: 'underline',
               textUnderlineOffset: '3px',
             }}
@@ -104,12 +104,12 @@ export default function PeoplePersonHero() {
             fontSize: '0.6rem',
             letterSpacing: '0.3em',
             textTransform: 'uppercase',
-            color: '#aaa',
+            color: '#555',
           }}
         >
           Work
         </span>
-        <span style={{ color: '#888', fontSize: '1rem', lineHeight: 1 }}>↓</span>
+        <span style={{ color: '#777', fontSize: '1rem', lineHeight: 1 }}>↓</span>
       </button>
     </section>
   );

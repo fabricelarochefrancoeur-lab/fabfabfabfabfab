@@ -49,7 +49,7 @@ export default function ShowsPage() {
   return (
     <main
       style={{
-        backgroundColor: '#0d0d0d',
+        backgroundColor: '#f5f3ee',
         minHeight: '100svh',
         display: 'flex',
         flexDirection: 'column',
@@ -73,7 +73,7 @@ export default function ShowsPage() {
             fontFamily: 'var(--font-display)',
             fontSize: 'clamp(2.8rem, 7vw, 5.5rem)',
             fontWeight: 300,
-            color: '#e8e6e1',
+            color: '#0d0d0d',
             letterSpacing: '-0.02em',
             lineHeight: 0.97,
             marginBottom: '4rem',
@@ -88,7 +88,7 @@ export default function ShowsPage() {
             {/* Divider */}
             <div
               style={{
-                borderTop: '1px solid #2a2a2a',
+                borderTop: '1px solid #d8d4cb',
                 marginBottom: '0',
               }}
             />
@@ -111,7 +111,7 @@ export default function ShowsPage() {
                       style={{
                         fontFamily: 'var(--font-body)',
                         fontSize: '0.75rem',
-                        color: '#e8e6e1',
+                        color: '#0d0d0d',
                         letterSpacing: '0.04em',
                       }}
                     >
@@ -151,7 +151,7 @@ export default function ShowsPage() {
                     fontSize: '0.6rem',
                     letterSpacing: '0.2em',
                     textTransform: 'uppercase',
-                    color: '#e8e6e1',
+                    color: '#0d0d0d',
                     textDecoration: 'underline',
                     textUnderlineOffset: '3px',
                     whiteSpace: 'nowrap',
@@ -168,7 +168,7 @@ export default function ShowsPage() {
             style={{
               fontFamily: 'var(--font-body)',
               fontSize: '0.85rem',
-              color: '#444',
+              color: '#999',
               lineHeight: 1.8,
               letterSpacing: '0.01em',
             }}
@@ -185,7 +185,7 @@ export default function ShowsPage() {
                 fontFamily: 'var(--font-display)',
                 fontSize: 'clamp(1.2rem, 3vw, 1.8rem)',
                 fontWeight: 300,
-                color: '#333',
+                color: '#999',
                 letterSpacing: '-0.02em',
                 lineHeight: 0.97,
                 marginBottom: '2rem',
@@ -195,7 +195,7 @@ export default function ShowsPage() {
             </h2>
             <div
               style={{
-                borderTop: '1px solid #1e1e1e',
+                borderTop: '1px solid #d8d4cb',
                 marginBottom: '0',
               }}
             />
@@ -218,7 +218,7 @@ export default function ShowsPage() {
                       style={{
                         fontFamily: 'var(--font-body)',
                         fontSize: '0.75rem',
-                        color: '#e8e6e1',
+                        color: '#0d0d0d',
                         letterSpacing: '0.04em',
                       }}
                     >
@@ -258,7 +258,7 @@ export default function ShowsPage() {
       <div
         style={{
           padding: '2rem 2.5rem',
-          borderTop: '1px solid #1a1a1a',
+          borderTop: '1px solid #d8d4cb',
         }}
       >
         <Link
@@ -269,7 +269,7 @@ export default function ShowsPage() {
             fontSize: '0.6rem',
             letterSpacing: '0.2em',
             textTransform: 'uppercase',
-            color: '#444',
+            color: '#aaa',
             textDecoration: 'none',
           }}
         >
