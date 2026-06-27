@@ -7,24 +7,15 @@ export const metadata = {
 
 // Upcoming shows go here when available.
 // Each show: { date, venue, city, ticketUrl }
-const upcomingShows = [
+const upcomingShows = [];
+
+const pastShows = [
   {
     date: 'June 25, 2026',
     description: "Tout va bien, spectacle d'improvisation en français",
     venue: '26 Exmouth Market',
     city: 'London EC1R 4QE',
-    ticketUrl: 'https://fabfabfabfabfab.bigcartel.com/product/toutvabien',
   },
-  {
-    date: 'July 2, 2026',
-    description: 'People Person — Work in Progress',
-    venue: "Fab's Studio",
-    city: 'London',
-    ticketUrl: 'https://fabfabfabfabfab.bigcartel.com/product/peoplepersonwip3',
-  },
-];
-
-const pastShows = [
   {
     date: 'April 2, 2026',
     description: 'People Person — Work in Progress',
