@@ -50,7 +50,7 @@ export default function WorkList() {
       style={{
         backgroundColor: '#f5f3ee',
         minHeight: '100vh',
-        paddingTop: '7rem',
+        paddingTop: '10rem',
         paddingBottom: '10rem',
       }}
     >

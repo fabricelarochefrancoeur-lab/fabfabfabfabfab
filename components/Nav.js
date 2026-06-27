@@ -62,7 +62,7 @@ export default function Nav() {
           </Link>
         ))}
         <a
-          href="https://www.instagram.com/fafafabfabfabx"
+          href="https://www.instagram.com/fabfabfabfabfabx"
           target="_blank"
           rel="noopener noreferrer"
           className="nav-link"
